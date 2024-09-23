@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/stylescreen.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <title>Loja Esportiva</title>
+</head>
+<body>
+    <header>
+    <div class="container">
+        <h1>Loja da FIEL</h1>
+        <form>
+            <input type="search" placeholder="Busque por produtos">
+            <button type="submit">Pesquisar</button>
+        </form>
+    </div>
+    <div class="botao-menu">
+        <button type="button">Abrir Menu</button>
+    </div>
+    <nav class="container">
+        <ul class="menu">
+            <li>
+                Camisas modelo torcedor
+                <ul class="submenu">
+                    <li>
+                        <a href="#">Masculinas</a>
+                    </li>
+                    <li>
+                        <a href="#">Femininas</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Camisas modelo jogador
+                <ul class="submenu">
+                    <li>
+                        <a href="#">Masculinas</a>
+                    </li>
+                    <li>
+                        <a href="#">Femininas</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Roupas casuais
+                <ul class="submenu">
+                    <li>
+                        <a href="#">Masculinas</a>
+                    </li>
+                    <li>
+                        <a href="#">Femininas</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <div class="clear"></div>
+    </nav>
+    </header>
+    <div class="container conteudo">
+        <main>
+            <section class="sobre"> 
+                <h2>Sobre a loja</h2>
+                <article class="sobre">
+                    <a href="#">
+                        <img src="https://s2.glbimg.com/G1hZvdmhbgTZr0UfZuJd17THzmw=/560x560/e.glbimg.com/og/ed/f/original/2015/10/14/arcif0bclw6480vvc-gyyvdh_a6_zliwnhjuda7ogchx.jpg" />
+                        <h3>
+                            Somos uma loja de produtos para agradar o torcedor corinthiano, ou para você que ama alguém que ama o Corinthians. 
+                        </h3>
+                    </a>
+                </article>
+            </section>
+            <section class="lista">
+                <h2>Produtos</h2>
+                <div class="produtos">
+                    <article class="produto">
+                        <a href="#">
+                            <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSUDHDwuRJOG368xIm9x5O0F4WNV7fMUDUtk5kbPZqVS9nPz1qD8Fvj9uU20cPTUC3CEDzfPwptlt9maibCpE-MBMYx0xM5TJK8wn2NPS-iWHENxnQzv2akQnzK&usqp=CAc" />
+                            <h3>
+                                Nova camisa nª 3 do corinthians, lançada em campanha contra o racismo, mostrando que a junção entre o preto e o branco forma algo lindo e grande.
+                            </h3>
+                            <button type="button">ADICIONAR AO CARRINHO</BUtton>
+                        </a>
+                    </article>
+                    <article class="produto">
+                        <a href="#">
+                            <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRpv9CKGIDl0gcYbh4YkmDvzZC0zTwMGGADU7HUcu8_4zyPaHMBeijp6lftApswcPpIVUmDJetY65OvNOcfVhNytqW9HzZyEq99MbJZrfhSDlC8ziHMRCFbpfaT5FiMDjePBLVI_Bc&usqp=CAc" />
+                            <h3>
+                                camisa nª 2 do corinthians, em estilo all black, também em campanha contra o racismo, modelo mais vendido do ano.
+                            </h3>
+                            <button type="button">ADICIONAR AO CARRINHO</BUtton>
+                        </a>
+                    </article>
+                    <article class="produto">
+                        <a href="#">
+                            <img src="data:image/jpeg;base64,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" />
+                            <h3>
+                                Camisa casual em homenagem a Ronaldo fenômeno, grande ídolo do corinthians por seus gols e sua história de superação as lesões sofridas.
+                            </h3>
+                            <button type="button">ADICIONAR AO CARRINHO</BUtton>
+                        </a>
+                    </article>
+                    <article class="produto">
+                        <a href="#">
+                            <img src="https://static.shoptimao.com.br/produtos/camiseta-corinthians-escudo-central-masculina/14/RT4-0011-014/RT4-0011-014_zoom1.jpg?ts=1718734573&ims=326x"/>
+                            <h3>
+                                Camisa casual branca feminina, com o símbolo do corinthians no meio em tecido dri-fit, excelente para uso em atividades físicas.
+                            </h3>
+                            <button type="button">ADICIONAR AO CARRINHO</BUtton>
+                        </a>
+                    </article>
+                </div>
+            </section>
+</body>
+</html>
